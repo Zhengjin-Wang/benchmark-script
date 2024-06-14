@@ -3,7 +3,7 @@ import subprocess
 import csv
 
 parser = argparse.ArgumentParser(description='Collect concurrency rate.')
-parser.add_argument('--pid',default="", type=str, help='')
+parser.add_argument('--pid',default="", type=str, help='', required=True)
 args = parser.parse_args()
 pid = args.pid
 
