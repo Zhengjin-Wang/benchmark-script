@@ -5,7 +5,7 @@
 pid1=$!
 mpstat 1 > mpstat.log &
 pid2=$!
-pqos 1 > pqos.log &
+pqos -r 1 > pqos.log &
 pid3=$!
 
 # 定义信号处理器
