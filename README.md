@@ -54,6 +54,10 @@ chmod +x utilization.sh
 
 输出: CPU资源利用率，带宽利用率，内存占用，分别保存在三个文件中(mpstat.log, pqos.log, mem_utilization.log)
 
+<div align="center">
+  <img src="data/3.png">
+</div>
+
 ## 硬件信息
 
 device_info.sh
