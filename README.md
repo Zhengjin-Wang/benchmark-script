@@ -84,7 +84,7 @@ chmod +x device_info.sh
 
 latency.sh
 
-使用mlc工具测量内存、缓存的延迟，启动脚本后等待一段时间测试，结果保存在文件中(mlc.log)
+使用mlc工具测量内存、缓存的延迟，启动脚本后等待一段时间测试，结果保存在文件中
 
 用法: 
 ```
@@ -93,7 +93,7 @@ chmod +x latency.sh
 ./latency.sh
 ```
 
-输出: 内存带宽、跨Numa延迟、缓存带宽、缓存时延(L1d L2 L3)
+输出: 内存带宽、跨Numa延迟、缓存带宽、缓存时延(L1d L2 L3)，输出在mlc.log
 
 <div align="center">
   <img src="data/5-1.png">
