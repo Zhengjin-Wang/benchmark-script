@@ -12,6 +12,11 @@ concurrency.py
 
 输出: 进程当前运行的线程列表(concurrency.log)
 
+<div align="center">
+  <img src="data/1.png">
+</div>
+
+
 ## perf相关(访存效率、缓存效率、分支效率、不同层次缓存访问缺失率)
 
 perf_test.py
@@ -23,6 +28,10 @@ perf_test.py
 用法: `python perf_test.py [--pid <pid> | --cgroup <cgroup_name>]`
 
 输出: 运行期间PMC数据，每秒数据，某些PMC有缺失率等信息(perf.csv)
+
+<div align="center">
+  <img src="data/2.png">
+</div>
 
 ## 算力/缓存/内存/带宽资源利用率
 
@@ -63,6 +72,10 @@ chmod +x device_info.sh
 
 输出: 硬件信息(device.log) 内存信息(mem_info.log)
 
+<div align="center">
+  <img src="data/4.png">
+</div>
+
 ## 内存时延
 
 latency.sh
@@ -77,3 +90,11 @@ chmod +x latency.sh
 ```
 
 输出: 内存带宽、跨Numa延迟、缓存带宽、缓存时延(L1d L2 L3)
+
+<div align="center">
+  <img src="data/5-1.png">
+</div>
+
+<div align="center">
+  <img src="data/5-2.png">
+</div>
