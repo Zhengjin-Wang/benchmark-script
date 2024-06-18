@@ -58,7 +58,7 @@ pmc_file = "pmc.txt"
 pmc_string = get_pmc_string(pmc_file)
 pmc_list = get_pmc_list(pmc_file)
 
-header = ['PMC', 'data', "data per second", "ratio"]
+header = ['PMC', 'data', "data per second", "rate"]
 csv_data = [header]
 
 if pid:

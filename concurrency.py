@@ -13,7 +13,7 @@ ps.wait()
 
 rows = output.split('\n')
 rows = rows[:-3]
-with open(f'./concurrency.csv', 'w', newline='') as file:
+with open(f'./concurrency.log', 'w', newline='') as file:
     writer = csv.writer(file)
     for row in rows:
         writer.writerow([row])
