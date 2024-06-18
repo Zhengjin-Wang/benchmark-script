@@ -52,7 +52,7 @@ chmod +x utilization.sh
 ./utilization.sh
 ```
 
-输出: CPU资源利用率，带宽利用率，内存占用，分别保存在三个文件中(mpstat.log, pqos.log, mem_utilization.log)
+输出: CPU资源利用率，带宽利用率，内存占用，分别保存在三个文件中(utilization_cpu.log, utilization_bw.log, utilization_mem.log)
 
 <div align="center">
   <img src="data/3.png">
@@ -93,7 +93,7 @@ chmod +x latency.sh
 ./latency.sh
 ```
 
-输出: 内存带宽、跨Numa延迟、缓存带宽、缓存时延(L1d L2 L3)，输出在mlc.log
+输出: 内存带宽、跨Numa延迟、缓存带宽、缓存时延(L1d L2 L3)，输出在latency.log
 
 <div align="center">
   <img src="data/5-1.png">
